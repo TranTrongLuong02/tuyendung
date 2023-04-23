@@ -84,9 +84,9 @@ function handleDrop(e) {
 
   handleFiles(files);
 }
-// function handleFiles(files) {
-//   [...files].forEach(uploadFile);
-// }
+ function handleFiles(files) {
+   [...files].forEach(uploadFile);
+ }
 function handleFiles(files) {
   files = [...files];
   initializeProgress(files.length); // <- Add this line
